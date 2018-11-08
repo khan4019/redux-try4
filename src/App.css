@@ -1,0 +1,50 @@
+.icon-container{
+  display: flex;
+  padding: 10px;
+}
+.icon-container div:not(:first-child){
+  margin-left: 30px;
+}
+.divider{
+  border-left: 1px solid black;
+}
+
+.sprite{          
+  background-image: url("./images/sprite.png");
+}
+.icon{
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.logo-icon{
+      background-position: -191px 0;
+}
+.logo-name {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 29px;
+  width: 103px;
+  display: inline-block;
+}
+.profile{
+  background-position: 0px -193px;
+}
+.heart-empty {
+  background-position: -130px -115px;
+}
+
+.heart-filled {
+  background-position: -104px -115px;
+}
+
+.comment{
+  background-position: -217px 0;
+}
+.add{
+  background-position: -103px -141px;
+}
+.remove{
+  background-position: -217px -26px;
+}
